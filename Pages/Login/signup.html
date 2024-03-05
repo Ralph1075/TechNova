@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/signup.css">
+
+  <title>Register New Account</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Register New Account</h1>
+    <form>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile" name="mobile" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="re-type-password">Re-type Password</label>
+        <input type="password" id="re-type-password" name="re-type-password" required>
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">I agree with Privacy Policy, Refund Policy, Terms and Conditions</label>
+      </div>
+      <button class="cta-button signup-button" onclick="navigateToLogin()">Register Now</button>
+    </form>
+    <p class="option">Or Login with</p>
+    <div class="social-login">
+      <a href="#"><img src="../../images/google.png" alt="Google"></a>
+      <a href="#"><img src="../../images/fb.png" alt="Facebook"></a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script>
+    function navigateToLogin() {
+        window.location.href = '../login/login.html';
+    }
+</script>
+</body>
+</html>

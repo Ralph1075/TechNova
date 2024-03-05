@@ -1,0 +1,29 @@
+#hero-section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#teacherSignupForm {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#teacherSignupForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#teacherSignupForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.signup-button {
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.signup-button:hover {
+    background-color: lightblue;
+}

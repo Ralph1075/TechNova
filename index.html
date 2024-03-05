@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One&family=Play&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap" />
+
+    <title>MoneyMonsters</title>
+</head>
+<body class="main">
+    <!-- Navbar Section -->
+    <header id="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="MoneyMonsters Logo">
+            </a>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-btn">Services</a>
+                    <div class="dropdown-content">
+                        <a href="Pages/Services/budgeting.html">Budgeting</a>
+                        <a href="Pages/Services/saving_and_investing.html">Saving and Investing</a>
+                        <a href="Pages/Services/debt_management.html">Debt Management</a>
+                        <a href="Pages/Services/financial_education.html">Financial Education</a>
+                        <a href="Pages/Services/goal_setting.html">Goal Setting</a>
+                        <a href="Pages/Services/business_ideas.html">Business Ideas</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-btn">Solutions</a>
+                    <div class="dropdown-content">
+                        <a href="Pages/Solutions/lectures.html">Lectures</a>
+                        <a href="Pages/Solutions/findings.html">Findings</a>
+                        <a href="Pages/Solutions/research.html">Research</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-btn">Resources</a>
+                    <div class="dropdown-content">
+                        <a href="Pages/Resources/library.html">Library</a>
+                        <a href="Pages/Resources/articles.html">Articles</a>
+                        <a href="Pages/Resources/community_forums.html">Community Forums</a>
+                    </div>
+                </li>
+                <li><a href="Pages/help.html">Help</a></li>
+                <li><button class="cta-button signup-button" onclick="navigateToLogin()">Login</button></li>
+                <li><button class="cta-button signup-button" onclick="navigateToSignUp()">SignUp</button></li>
+            </ul>
+        </nav>
+        <div class="main-header-content">
+            <h2>Welcome to <span class="highlight">MoneyMonsters!</span></h2>
+            <p>Your Ultimate Financial Companion!</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="left-content">
+            <div class="hero" id="hero-section">
+                <h1>Experience Meets Learning</h1>
+                <p>Dive deep into the realm of financial education tailored just for you. Uncover expert insights and personalized guidance on budgeting, investing, and more. <br> Take control of your financial future and thrive with every decision. Let's navigate the world of finance together and unleash your true money monster potential! <br> Explore Courses: We offer a variety of courses designed to enhance your financial knowledge. <br> From basics of budgeting to advanced investment strategies, there’s something for everyone</p>
+                <div class="cta-buttons">
+                    <button class="cta-button make-more" onclick="navigateToMakeMore()">Make More</button>
+                    <button class="cta-button save-more" onclick="navigateToSaveMore()">Save More</button>
+                </div>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="slider">
+                <img src="images/atm.jpg" alt="Financial image 3">
+                <img src="images/M.jpg" alt="Financial image 3">
+                <img src="images/M1.jpg" alt="Financial image 3">
+                <img src="images/M2.jpg" alt="Financial image 3">
+                <img src="images/M3.jpg" alt="Financial image 3">
+                <img src="images/M4.jpg" alt="Financial image 3">
+                <img src="images/M5.jpg" alt="Financial image 3">
+                <img src="images/M6.jpg" alt="Financial image 3">
+                <img src="images/M7.jpg" alt="Financial image 3">
+                <img src="images/M8.jpg" alt="Financial image 3">
+                <img src="images/M9.jpg" alt="Financial image 3">
+                <img src="images/M0.jpg" alt="Financial image 3">
+        
+                <div class="slider-dots">
+                    <span class="slider-dot active"></span>
+                    <span class="slider-dot"></span>
+                    <span class="slider-dot"></span>
+                </div>
+            </div>
+            <div>
+                <h2>Ready to start your journey to a thousand miles with MoneyMonsters?</h2>
+                <div class="card">
+                    <h3>Make the Right Decision!</h3>
+                    <p>Don't hesitate to begin your journey of unleashing your potrential! Remember we are always there for you to provide the best and quality servicess and support.</p>
+                    <button class="cta-button content-button" onclick="navigateToStartNow()">Start Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="learn-more">
+        <div class="card">
+            <h3>Learn More</h3>
+            <p>Explore our resources and educational materials.</p>
+            <button class="cta-button content-button" onclick="navigateToStartNow()">Learn More</button>
+        </div>
+        <div class="card">
+            <h3>Start Investing</h3>
+            <p>Build your wealth and secure your future.</p>
+            <button class="cta-button content-button" onclick="navigateToStartNow()">Start Now</button>
+        </div>
+        <div class="card">
+            <h3>Join the Community</h3>
+            <p>Connect with other financially savvy individuals.</p>
+            <button class="cta-button content-button" onclick="navigateToStartNow()">Join Us</button>
+        </div>
+    </div>
+
+    <div class="quote">
+        <p>Remember, the journey to financial literacy is a marathon, not a sprint. Take your time, keep learning, and don’t hesitate to ask if you have any questions. Happy learning!</p>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="https://www.facebook.com/bettemmanuel477@gmail.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/bettemmanuel477"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/c/bettemmanuel477"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.twitter.com/Betman1242"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/emmanuel-bett-81abb3250"><i class="fa fa-linkedin"></i></a>
+                <a href="https://web.telegram.org/k/"><i class="fa fa-telegram"></i></a>
+            </div>
+            <div class="row">
+                <ul>
+                    <li><a href="Pages/Footer/contact.html">Contact us</a></li>
+                    <li><a href="Pages/Footer/services.html">Our Services</a></li>
+                    <li><a href="Pages/Footer/privacy.html">Privacy Policy</a></li>
+                    <li><a href="Pages/Footer/terms.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                MoneyMonsters Financial Literacy Platform © 2024 - All rights reserved
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script>
+        function navigateToLogin() {
+            window.location.href = 'pages/login/login.html';
+        }
+
+        function navigateToSignUp() {
+            window.location.href = 'pages/login/signup.html';
+        }
+
+        function navigateToMakeMore() {
+            window.location.href = 'pages/login/make_more.html';
+        }
+
+        function navigateToSaveMore() {
+            window.location.href = 'pages/login/save_more.html';
+        }
+
+        function navigateToStartNow() {
+            window.location.href = '#';
+        }
+        
+        function navigateToStartNow() {
+            window.location.href = '#';
+        }
+
+        function navigateToStartNow() {
+            window.location.href = '#';
+        }
+
+        function navigateToStartNow() {
+            window.location.href = '#';
+        }
+
+        setActiveLink();
+    </script>
+</body>
+</html>
