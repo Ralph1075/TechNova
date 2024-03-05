@@ -1,2 +1,0 @@
-# TechNova
-Capstone Project
